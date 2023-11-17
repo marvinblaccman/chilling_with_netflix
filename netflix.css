@@ -1,0 +1,22 @@
+.leo{
+    display: flex;
+}
+.fom{
+    display: flex;
+}
+body{
+    background: linear-gradient(to top, red, black);
+}
+p{
+    border: solid 1px;
+    color: aliceblue;
+    background-color: brown;
+    border-color: brown;
+    flex-direction: column;
+}
+.lili{
+    color: red;
+}
+h2{
+    color: whitesmoke;
+}
