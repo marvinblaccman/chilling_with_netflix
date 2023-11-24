@@ -1,24 +1,29 @@
 .leo{
     display: flex;
+    background-color: rgb(20, 12, 12);
+    
 }
 .fom{
     display: flex;
     font-size:xx-large;
+    background: linear-gradient(to bottom, rgb(20, 12, 12), rgb(160, 13, 13));
 }
 body{
-    background: linear-gradient(to bottom, rgb(110, 17, 17), rgb(93, 9, 9));
+   background: linear-gradient(to bottom, rgb(20, 12, 12), rgb(160, 13, 13));
 }
 p{
     color: aliceblue;
     flex-direction: column;
     font-size:larger;
     flex-direction: column;
+    
 }
 .lili{
     color: red;
 }
 h2{
     color: whitesmoke;
+    margin-left: 29px;
 }
 .bar{
     margin-left: 10px;
@@ -45,10 +50,12 @@ h2{
         background-color: red;
         color: antiquewhite;
         border-color: red;
-    }
+        border-radius: 12px;
+}
 .one{
     display: flex;
     padding: none;
+    margin-left: 29px;
 }
 .one a {
     padding: none;
@@ -66,7 +73,10 @@ h4{
     font-size: x-large;
 }
 .latina{
-    font-family: lucida sans;
+    font-family: Calibri light;
+    font-size: small;
+    font-weight:200px;
+    color: grey;
 }
 #ops{
     margin-left: 250px;
@@ -89,12 +99,15 @@ footer{
     justify-content: center;
     height: 100vh;
     margin: 0;
+    background-image: url(/chill_tunaunda_netflix/image\ 33.png);
 }
 form {
     max-width: 400px;
     width: 100%;
     background-color: black;
     padding: 10px;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 label{
     color: antiquewhite;
@@ -104,7 +117,65 @@ label{
 }
 .rema{
     padding-left: 10px;
+    font-size: small;
 }
 .mama{
-    font-family: sans-serif;
+    font-family: Bell MT;
+}
+.mbulu{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.pics{
+    background: linear-gradient(to bottom, rgb(20, 12, 12), rgb(160, 13, 13));
+}
+.qwerty {
+    padding: none;
+    margin: none;
+    color: antiquewhite;
+    font-size: small;
+}
+.qwertz{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 40px;
+}
+.guru{
+    color: rgb(35, 98, 215) ;
+}
+.scroll-container {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.content {
+    flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.scroll-btn {
+    font-size: 1.5em;
+    background-color: darkred;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.scroll-btn:hover {
+    background-color: red;
+}
+
+#scroll-left {
+    border-radius: 5px 0 0 5px;
+}
+
+#scroll-right {
+    border-radius: 0 5px 5px 0;
+}
+.submit{
+background-color: red;
+margin-left: 130px;
 }
